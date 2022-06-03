@@ -47,7 +47,7 @@ body {
   grid-template-rows: 200px repeat(4, 1fr);
   margin: 0;
   padding: 0;
-  height: 100vh;
+  width: 100vw;
 }
 
 .header-grid {
@@ -62,7 +62,7 @@ body {
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   max-width: 100%;
   min-width: 0;
-  overflow: auto;
+  overflow: hidden;
   padding: 10px 20px;
 }
 
